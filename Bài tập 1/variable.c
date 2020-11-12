@@ -12,7 +12,8 @@ int main(void) {
   // khoi tao gia tri cho bien c
   c = 'a';
   // hien thi bien c ra man hinh
-  printf("Bien c = %c",c);
+  printf("Bien c = %c\n",c);
   //hien thi dong: bien num=5 va bien c=a
+  printf("Bien num = %d\n va bien c = %c\n",num,c);
   return 0;
 }
