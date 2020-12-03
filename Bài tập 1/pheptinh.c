@@ -10,7 +10,7 @@ int main(void) {
   // gan gia tri DT,CV
   DT = R*R*PI;
   CV = 2*R*PI;
-  // xuat DT,CV ra man hinh theo cot hang
+  // xuat DT,CV,R,PI ra man hinh theo cot hang
   printf("R = %0.1f",R);
   printf("\n");
   printf("PI = %0.1f",PI);
