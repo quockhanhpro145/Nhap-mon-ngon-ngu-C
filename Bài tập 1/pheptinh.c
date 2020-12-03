@@ -13,7 +13,6 @@ int main(void) {
   // xuat DT,CV,R,PI ra man hinh theo cot hang
   printf("R = %0.1f",R);
   printf("\n");
-  printf("PI = %0.1f",PI);
   printf("\n");
   printf("DT  \tCV  \n%0.1f\t%0.1f",DT,CV);
   return 0;
