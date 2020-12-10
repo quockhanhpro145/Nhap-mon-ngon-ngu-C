@@ -9,8 +9,8 @@ int main(void) {
   // kiem tra so chan le bang khong
   if(n > 0){
     // so chan
-    if(n % 2 ==0){
-      printf("%d la so chan",n);
+    if(n % 2 == 0){// n % 2 la chia het cho 2 lay du = 0
+      printf("%d la so chan ",n);
     } else{
       printf("%d la so le",n);
     }
