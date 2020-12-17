@@ -7,10 +7,10 @@ int main(void) {
   printf("Nhap dongia = "); scanf("%d",&a);
   printf("Nhap soluong = "); scanf("%d",&b);
   // tinh thanh tien
-  if(b <= 5){
+  if(b <= 5,a <= 500){
   printf("a*b = %d",a*b);
-  }else if(b>5){
-    printf("a*b = %f",a*b*0.75);
+  }else if(b >= 5,a >= 500){
+    printf("a*b = %f",a*b*0.5);
   }
 
   return 0;
