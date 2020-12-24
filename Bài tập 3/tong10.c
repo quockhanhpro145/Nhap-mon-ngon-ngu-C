@@ -2,9 +2,12 @@
 
 int main(void) {
   // khai bao bien
-  int a,b;
+  int tong,dem;
+  tong = 0;
   // xuat ra man hinh tong tu 1 den 10
-  for(a = 0, b = 1; a <10; a = a + 1)
-      printf("\n %d + %d = %d",a,b,a + b);
+  for(dem = 1; dem <=10; dem = dem + 1)
+      tong = tong + dem;
+      printf(" Tong la: %d",tong);
+
   return 0;
 }
