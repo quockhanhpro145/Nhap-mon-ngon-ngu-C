@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-  //khai báo biến
+//khai báo biến
   int n;
+//xuất ra màn hình 
   printf("Nhap n = ");scanf("%d",&n);
 //in từ tiếng anh ứng với số 1 đến 9
   if(n == 1){
@@ -24,7 +25,7 @@ int main(void) {
   }else if(n == 9){
     printf("nice",n);
   }else if(n >9){
-    printf(" Greater than 9 ");  
+    printf(" Greater than 9 "); 
   }
   return 0;
 }
