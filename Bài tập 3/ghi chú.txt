@@ -1,3 +1,4 @@
 pt: phép tính
 == : so sánh
 = : gáng
+!= : khác
