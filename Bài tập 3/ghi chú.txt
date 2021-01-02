@@ -2,3 +2,4 @@ pt: phép tính
 == : so sánh
 = : gáng
 != : khác
+sprt () : trả về căn bậc 2
