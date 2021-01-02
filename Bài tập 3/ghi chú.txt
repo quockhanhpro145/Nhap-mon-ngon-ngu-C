@@ -3,4 +3,4 @@ pt: phép tính
 = : gáng
 != : khác
 sprt () : trả về căn bậc 2
-%0.1,2,3,4: tùy theo số là làm tròn các số sau dấu ,
+0.1,2,3%: tùy theo số là làm tròn các số sau dấu ,
