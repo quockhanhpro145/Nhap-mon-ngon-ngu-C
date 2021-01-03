@@ -4,3 +4,4 @@ pt: phép tính
 != : khác
 sprt () : trả về căn bậc 2
 0.1,2,3%: tùy theo số là làm tròn các số sau dấu ,
+|| : hoặc
