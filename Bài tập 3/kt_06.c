@@ -4,7 +4,7 @@
 int main(void) {
   int h;
   printf("Nhap h = ");scanf("%d",&h);
-  if(h > 0){
+  if(h > 0){// câu a
     int i,j;
     for(i = 1; i <= h; i++){
       for(j = 1; j < h * 2; j++){
@@ -19,24 +19,16 @@ int main(void) {
   } else {
     printf("Nhap h > 0");
   }
-  return 0;
-}// câu a
-
-#include <stdio.h>
-
-int main(void) {
-  int h,k;
-  printf("Nhap h = ");scanf("%d",&h);
-  k = h - 1;
-  int i,j;
-    for(i = 0; i < h - 1; i++){
-      for(j = 0; j < 2 * h - 1; j++){
-        if(j == k - i || j == k + i){ printf(" * ");// || hoặc
+  int k,a,b ;
+  k = h -1;
+  for(a = 0; a < h - 1; a++){// câu b
+      for(b = 0; b < 2 * h - 1; b++){
+        if(b == k - a || b == k + a){ printf(" * ");// || hoặc
         } else {
           printf("   ");
         }
       }
         printf("\n");
-    } for(i = 0; i < 2 * h - 1; i++) printf(" * ");
+    } for(a = 0; a < 2 * h - 1; a++) printf(" * ");
   return 0;
-}// câu b
+}
