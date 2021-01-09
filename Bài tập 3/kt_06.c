@@ -32,3 +32,18 @@ int main(void) {
     } for(a = 0; a < 2 * h - 1; a++) printf(" * ");
   return 0;
 }
+//h = 4: 4 hang
+  //hang 1:1 sao 6 khoang trang
+  //hang 2:3 sao 6 khoang trang
+  //hang 3:5 sao 6 khoang trang
+  //hang 4:7 sao 6 khoang trang
+  //h = 3: 3 hang
+  //hang 1:1 sao 6 khoang trang
+  //hang 2:3 sao 6 khoang trang
+  //hang 3:5 sao 6 khoang trang
+  //h = 2: 2 hang
+  //hang 1:1 sao 6 khoang trang
+  //hang 2:3 sao 6 khoang trang
+  //h = 1: 1 hang
+  //hang 1:1 sao 6 khoang trang
+  
