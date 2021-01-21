@@ -16,21 +16,27 @@ int main(void) {
   for(i = 0 ; i < n; i++)
   printf("%d\t", a[i]);
   // tinh tong chan ve dem so chan
-  printf("\ndem ca so chan : ");
-  for(i = 0; i < n; ++i){
+  printf("\ndem cac so chan : ");
+  for(i = 0; i < n; i++){
         if(a[i] % 2 == 0){
         chan = chan + a[i];
         printf("%d\t",a[i]);
         }
       }
   // tinh tong so le va dem so le
-  printf("\ndem ca so le : ");
-  for(i = 0; i < n; ++i){
+  printf("\ndem cac so le : ");
+  for(i = 0; i < n; i++){
        if(a[i] % 2 != 0){
         le = le + a[i];
         printf("%d\t",a[i]);
        }
       }
+  printf("\ndem cac so 0 : ");
+  for(i = 0; i < n; i++){
+       if(a[i] == 0)
+    printf("%d\t",a[i]);
+    }
+
     printf("\ntong so chan = %d",chan);
     printf("\ntong so le = %d",le);
   return 0;
