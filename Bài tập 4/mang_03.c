@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 int main(void) {
-  int a[100],n,chan,le;
-  int i;
+  int a[100],n,chan,le, dem_chan,dem_le;
+  int i,so0;
   chan = 0;
   le = 0;
+  dem_chan = 0;
+  dem_le = 0;
+  so0 = 0;
   printf("nhap kich thuoc n = ");scanf("%d",&n);
   // nhap mang
   for(i = 0 ; i < n; i++){
@@ -16,27 +19,25 @@ int main(void) {
   for(i = 0 ; i < n; i++)
   printf("%d\t", a[i]);
   // tinh tong chan ve dem so chan
-  printf("\nso cac so chan trong a : %d ",a[i]);
   for(i = 0; i < n; i++){
-        if(a[i] % 2 == 0){
+        if(a[i] % 2 == 0 && a[i] != 0){
         chan = chan + a[i];
-        printf("%d\t",a[i]);
+        dem_chan = dem_chan + 1;
         }
       }
+      printf("\nso cac so chan trong a : %d ", dem_chan);
   // tinh tong so le va dem so le
-  printf("\nso cac so le trong a : %d ", a[i]);
   for(i = 0; i < n; i++){
        if(a[i] % 2 != 0){
         le = le + a[i];
-        printf("%d\t",a[i]);
+        dem_le = dem_le + 1;
        }
-      }
+      }printf("\nso cac so le trong a : %d ", dem_le);
   // dem cac so 0
-  printf("\nso cac so 0 trong a : %d ",a[i]);
   for(i = 0; i < n; i++){
        if(a[i] == 0)
-    printf("%d\t",a[i]);
-    }
+        so0 = so0 + 1;
+    }printf("\nso cac so 0 trong a : %d ",so0);
 
     printf("\ntong so chan = %d",chan);
     printf("\ntong so le = %d",le);
