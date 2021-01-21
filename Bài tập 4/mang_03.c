@@ -31,6 +31,7 @@ int main(void) {
         printf("%d\t",a[i]);
        }
       }
+  // dem cac so 0
   printf("\nso cac so 0 trong a : %d ",a[i]);
   for(i = 0; i < n; i++){
        if(a[i] == 0)
