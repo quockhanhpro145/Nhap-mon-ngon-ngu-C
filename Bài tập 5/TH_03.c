@@ -16,7 +16,7 @@ int main(){
     }
   else if(c > a && c > b )
     {
-      printf("max la : %d",c);
+      printf("so lon nhat la: %d",c);
     }
   return 0;
 }
