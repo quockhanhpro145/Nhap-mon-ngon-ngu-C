@@ -1,1 +1,3 @@
-
+Chương trình trên cho ra kết quả là 3252.
+*Giải thích:
+- 
